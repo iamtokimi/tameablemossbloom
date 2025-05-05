@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "tameableminisheep",
+  "version": "${version}",
+  "name": "TameableMinisheep",
+  "description": "Makes the Minisheep from WilderNature tameable",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/tameableminisheep/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.thecolonel63.tameableminisheep.TameableMinisheep"
+    ]
+  },
+  "mixins": [
+    "tameableminisheep.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "${minecraft_version}",
+    "wildernature": "*"
+  }
+}
