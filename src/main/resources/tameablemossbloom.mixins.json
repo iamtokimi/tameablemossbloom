@@ -1,13 +1,13 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.thecolonel63.tameableminisheep.mixin",
+  "package": "com.thecolonel63.tameablemossbloom.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "MiniSheepMixin"
+    "MossbloomEntityMixin"
   ],
   "client": [
-    "MiniSheepRendererMixin"
+    "MossbloomRendererMixin"
   ],
   "injectors": {
     "defaultRequire": 1
