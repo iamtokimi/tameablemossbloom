@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.thecolonel63.tameableminisheep.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MiniSheepMixin"
+  ],
+  "client": [
+    "MiniSheepRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
