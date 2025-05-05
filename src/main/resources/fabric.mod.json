@@ -1,25 +1,24 @@
 {
   "schemaVersion": 1,
-  "id": "tameableminisheep",
+  "id": "tameablemossbloom",
   "version": "${version}",
-  "name": "TameableMinisheep",
-  "description": "Makes the Minisheep from WilderNature tameable",
+  "name": "TameableMossbloom",
+  "description": "Makes the Mossbloom from Clutter tameable",
   "authors": [],
   "contact": {},
   "license": "All-Rights-Reserved",
-  "icon": "assets/tameableminisheep/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.thecolonel63.tameableminisheep.TameableMinisheep"
+      "com.thecolonel63.tameablemossbloom.TameableMossbloom"
     ]
   },
   "mixins": [
-    "tameableminisheep.mixins.json"
+    "tameablemossbloom.mixins.json"
   ],
   "depends": {
     "fabricloader": "*",
-    "minecraft": "${minecraft_version}",
-    "wildernature": "*"
+    "minecraft": "*",
+    "clutter": "*"
   }
 }
